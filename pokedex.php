@@ -1,20 +1,6 @@
 <?php
     $pokedex = [
-            [
-                'name' => 'bulbasaur',
-                'health' => 300,
-                'attacks' => [
-                    [
-                    'name'  => 'Trackle',
-                    'damage' => mt_rand(10,20)
-
-                ],
-                [
-                    'name' => 'Vin whip',
-                    'damage' => 15
-                ]
-            ]
-        ],
+            
         [
                 'name' => 'Squirtle',
                 'health' => 250,
