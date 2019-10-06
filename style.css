@@ -1,0 +1,66 @@
+.pokemon{
+
+    max-width: 60%;
+    margin-top: 100px;
+    position: absolute;
+    animation: sliding 3s 4 ease ;
+}
+@keyframes sliding {
+    from {
+        right: 150px;
+    }
+    to {
+        right:300px;
+    }
+
+}
+/*body {
+    background-color: gray;
+}*/
+.pokemon1{
+    margin-top: 100PX;
+    max-width: 60%;
+    position: absolute;
+    animation: sliding1 3s 4 ease ;
+}
+@keyframes sliding1 {
+    from {
+        left:150px;
+    }
+    to {
+        left:300px;
+    }
+
+}
+
+.out {
+     border: solid black;
+     font-size: 20px;
+     font-weight: bold;
+     text-shadow: 4px 2px 8px black;
+     margin-top: 50px;
+ }
+
+ .count {
+     background-color: green;
+     color: green;
+     width: 60%;
+     position: absolute;
+     animation: moving 0.5s 60 linear ;
+     margin-top: 40px;
+
+
+
+
+ }
+ @keyframes moving {
+     from {
+         left: 50px;
+         width:30%;
+     }
+     to {
+         left: 20px;
+         width: 20%;
+     }
+
+ }
