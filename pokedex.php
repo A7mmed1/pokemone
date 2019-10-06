@@ -1,7 +1,7 @@
 <?php
     $pokedex = [
             [
-                'name' => 'Bulbasaur',
+                'name' => 'bulbasaur',
                 'health' => 300,
                 'attacks' => [
                     [
